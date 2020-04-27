@@ -19,6 +19,12 @@ async function drawChart() {
       ],
     },
     options: {
+      plugins: {
+        datalabels: {
+          anchor: "end",
+          align: "end",
+        },
+      },
       scales: {
         yAxes: [
           {
